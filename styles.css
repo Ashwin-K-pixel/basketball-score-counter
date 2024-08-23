@@ -1,0 +1,93 @@
+@font-face {
+    font-family: cursed;
+    src: url("CursedTimerUlil-Aznm.ttf");
+}
+
+
+
+.container { 
+    font-family: cursed;
+    display: flex;
+    background-color: #1B244A;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-evenly;
+    width: 600px;
+    height: 400px;
+    margin-top: 150px;
+    border: solid 5px #9AABD8;
+}
+
+.container-home, .container-guest { 
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.team-title-1 { 
+        color: #EEEEEE;
+        margin-top: 30px;
+        font-size: 30px;
+}
+
+.team-title-2 { 
+        color: #EEEEEE;
+        margin-top: 30px;
+        font-size: 30px;
+}
+
+.scoreboard-fre { 
+    height: 150px;
+    width: 200px;
+    background-color: black;
+    margin-top: 30px;
+    border-radius: 5px;
+}
+
+.scoreboard-water { 
+    height: 150px;
+    width: 200px;
+    background-color: black;
+    margin-top: 30px;
+    border-radius: 5px;
+}
+
+.score { 
+    color: #F94F6D;
+    font-size: 100px;
+    margin: 28px 0 0 0;
+    text-align: center;
+}
+
+.btn-container { 
+     width: 200px;
+     height: 50px;
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     margin: 20px 0 0 0;
+}
+
+.score-btn { 
+     height: 40px;
+     width: 40px;
+     font-family: inherit;
+     background-color: #1B244A;
+     border: solid 3px #9AABD8;
+     border-radius: 7px;
+     color: #9AABD8;
+}
+
+.btn-reset { 
+    margin-top: 20px;
+    margin-left: 270px;
+    font-family: inherit;
+    background-color: #1B244A;
+    border: solid 3px #9AABD8;
+    border-radius: 7px;
+    color: #9AABD8;
+    padding: 5px 10px;
+}
+
